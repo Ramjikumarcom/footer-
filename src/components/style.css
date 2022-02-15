@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: rgba(39, 24, 1, 0.9);
+
+}
+footer{
+    
+    margin-top: 50px;
+    background-color: rgba(14, 28, 42, 0.06);
+    width: 100%;
+    position: relative;
+    height: 100%;  
+}
+section{
+    padding-top: 5%;
+}
+
+/* footer content box  */
+
+.footerContent{
+display: flex;
+flex-direction: row;
+
+margin: 32px;
+margin-left: 14.32%;
+}
+.address{
+ position: relative;
+right: 822px;
+top: 207px;
+}
+#regis{
+    margin-left: 1px;
+}
+h4{
+    
+    margin-left: 25px;
+margin-top: 10px;
+font-weight:bold;
+font-size: 17px;
+}
+li{
+    font-weight: 100px;
+text-decoration: none;
+text-transform: capitalize;
+margin-left: 25px;
+margin-top: 10px;
+list-style:none;
+font-family: Roboto;
+line-height: 30px;
+
+
+}
+.footerContent::after{
+    content: "";
+    background-color:#271801;
+    width: 0.6px;
+    height: 290px;
+    margin-left: 59px;
+}
+a{
+    text-decoration: none;
+    color: rgba(39, 24, 1, 1);
+    
+    width: 100%;
+}
+
+.footerbox{
+    display: flex;
+    flex-direction: row;
+}
+.copyright::after{
+    content: "";
+    background-color:#271801;
+    width: 61.871%;
+    height: .6px;
+    position: fixed;
+    top: 480px;
+    margin-left: 16.871%;
+}
+
+.libox{
+    margin-left: 60px;
+
+}
+   /* logo item /////////////////////////////////////////////////////////////// */
+img{
+    width: 66.532%;
+height: 91px;
+margin-left: 23%;
+margin-top: 60px;
+  
+}
+
+.box{
+     margin-left: 4.323%;
+    margin-top: 65px;
+
+}
+
+.contactIcon{
+    margin-left: -0.5%;
+
+}
+i{
+    margin-left: 30px;
+    
+}
+
+#follow{
+    margin-left: 15%;
+    margin-top: -20px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+img{
+
+}
+
+
+
+
+/* copyright symbol box  ///////////////////////////////////////////////////////////////////////////*/
+.copyright{
+    width: 100%;
+    margin-left: 0.839%;
+display: flex;
+margin-top: 25px;
+position: fixed;
+top: 460px;
+
+}
+.copyright p{
+    margin-left: 17.532%;
+    width: 100%;
+}
+.privacy{
+    
+    margin-right: 16.299%;
+}
+.iconplus .fas{
+    display: none;
+    
+}
+.icon .fab{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1261px){
+    .libox{
+        margin-left: 25px;
+        font-size: 14px;
+    }
+    .address{
+        position: relative;
+        top: 215px;
+        right: 699px;
+        width: 189px;
+    }
+
+}
+
+@media screen and (max-width:1450px){
+    .address{
+        position: relative;
+        top: 207px;
+        right: 812px;
+        width: 189px;
+    } 
+}
+@media screen and (max-width:1419px){
+    .address {
+        position: relative;
+        right: 822px;
+        top: 207px;
+      }
+}
+@media screen and (max-width:1347px){
+.libox{
+    
+}
+    .address{
+        position: relative;
+        top: 215px;
+        right: 822px;
+        width: 189px;
+    } 
+}
+@media screen and (max-width:1261px){
+    .address{
+        position: relative;
+        top: 215px;
+        right: 693px;
+        width: 189px;
+    }
+}
+@media screen and (max-width:1157px){
+    .address {
+        position: relative;
+        top: 206px;
+        right: 697px;
+        width: 189px;
+      }
+}
+
+@media screen and (max-width:1118px){
+    .address {
+        position: relative;
+        top: 206px;
+        right: 692px;
+        width: 189px;
+      }
+}
+@media screen and (max-width:1084px){
+    .libox{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .address{
+        position: relative;
+        top: 215px;
+        right: 699px;
+        width: 189px;
+    }
+    
+}
+@media screen and (max-width:1069px){
+    .libox{
+        margin-left: 12px;
+        font-size: 15px;
+    }
+    .address{
+        position: relative;
+        top: 215px;
+        right: 700px;
+    }
+    .address{
+        width: 189px;
+    }
+    
+}
+@media screen and (max-width:1059px){
+    .bCompany{
+        margin-left: -3px;
+    }
+    .address {
+        position: absolute;
+        top: 206px;
+        right: 680px;
+        width: 189px;
+      }
+}
+@media screen and (max-width:1058px) {
+    .address {
+        position: absolute;
+        top: 254px;
+        right: 686px;
+        width: 189px;
+      }
+    
+}
+
+@media screen and (max-width:1041px){
+    .address {
+        position: absolute;
+        top: 247px;
+        right: 688px;
+        width: 189px;
+      }
+      .libox{
+          margin-left: 1px;
+      } 
+      .bCompany{
+margin-left: 11px;
+      }
+} 
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .footerContent{
+        margin-left: 11.32%;
+    }
+    .libox{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .address{
+        position: absolute;
+        top: 250px;
+        left: 151px;
+        width: 189px;
+    }
+    
+}
+@media screen and (max-width:900px){
+    .footerContent{
+        margin-left: 11.32%;
+    }
+    .libox{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .address{
+        position: absolute;
+        top: 240px;
+        left: 155px;
+        font-size: 15px;
+        width: 189px;
+    }
+    .box{
+        margin-left: -1.677%;
+    }
+    
+}
+
+/* main responsive //////////////////////////////////////////////////////////////////// */
+
+@media   screen and (max-width:840px) {
+*{
+    font-weight: 100;
+    overflow-x:hidden;
+}
+.libox h4{
+    font-size:medium;
+}
+ .iconplus .fa-plus{
+    display: flex;
+    position: absolute;
+    left: 90%;
+    
+}
+ .iconplus .fa-times{
+    display: flex;
+    position: absolute;
+    left: 90%;
+    
+}
+#help .fa-times{
+    position: relative;
+    top: -33px;
+    left: 93.2%;
+    display: none;
+    
+}
+#company .fa-times{
+    position: relative;
+    top: -33px;
+    left: 93.2%;
+    display: none;
+}
+#products .fa-times{
+    position: relative;
+    top: -33px;
+    left: 93.2%;
+    display: none;
+    
+}
+
+
+
+#company .fa-plus{
+    position: relative;
+    top: -19px;
+    left: 93%;
+}
+
+
+#help .fa-plus{
+    position: relative;
+    top: -19px;
+    left: 93%;
+}
+#products .fa-plus{
+    position: relative;
+    top: -19px;
+    left: 93%;
+}
+footer{
+    height: 100%;
+}
+.footerContent{
+    margin-left: 10%;
+}
+.footerbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -15%;
+}
+.libox ul{
+display: none;
+margin-left:-12px ;
+    
+}
+
+.iconplus {
+cursor: pointer;
+}
+.footerContent{
+display: flex;
+flex: wrap;
+flex-direction: column;
+
+}
+.address{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: -390px;
+    left: 15.6%;
+    width: 100%;
+ 
+}
+img {
+    width: 17%;
+    margin-left: 6%;
+  }
+  #follow {
+    margin-left: 4%;
+    margin-top: -20px;
+  }
+.address::after{
+    content: "";
+    width: 81%;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    top: 80%;
+    
+}
+
+.iconplus:hover{
+    background-color:rgb(199, 188, 188);
+}
+
+.copyright::after{
+    content:none;
+
+}
+.footerContent::after{
+  margin-top: 150px;  
+  content: "";
+  width: 0px;
+  
+}
+.box{
+
+    position: relative;
+    top: -450px;
+    left: 38%;
+
+
+}
+.copyright{  
+display: flex;
+flex-direction: column-reverse;
+position: relative;
+top: -407px;
+left: -15%;
+}
+  .libox h4{
+        display: block;
+        padding-top: 5px;
+        
+        border-bottom: 1px solid black  ;
+        line-height: 30px;
+        margin-left: 10px;
+
+        
+    }
+    
+    
+   @media screen and (max-width:617px) {
+    .iconplus .fa-times{
+        display: flex;
+        position: absolute;
+        top: -19px;
+        left: 92%;
+        
+    }
+    #help .fa-times{
+        position: relative;
+        top: -19px;
+        left: 92%;
+        display: none;
+        
+    }
+    #company .fa-times{
+        position: relative;
+        top: -19px;
+        left: 92%;
+        display: none;
+    }
+    #products .fa-times{
+        position: relative;
+        top: -19px;
+        left: 92%;
+        display: none;
+        
+    }
+    
+    #company .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 92%;
+    }
+    #help .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 92%;
+    }
+    #products .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 92%;
+    }
+   }
+   @media screen and (max-width:500px) {
+    .iconplus .fa-times{
+        display: flex;
+        position: absolute;
+        top: -19px;
+        left: 88%;
+        
+    }
+    #help .fa-times{
+        position: relative;
+        top: -19px;
+        left: 88%;
+        display: none;
+        
+    }
+    #company .fa-times{
+        position: relative;
+        top: -19px;
+        left: 88%;
+        display: none;
+    }
+    #products .fa-times{
+        position: relative;
+        top: -19px;
+        left: 88%;
+        display: none;
+        
+    }
+    
+    #company .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 88%;
+    }
+    #help .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 88%;
+    }
+    #products .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 88%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .iconplus .fa-times{
+        display: flex;
+        position: absolute;
+        left: 90%;
+        
+    }
+    #help .fa-times{
+        position: relative;
+        top: -33px;
+        left: 93.2%;
+        display: none;
+        
+    }
+    #company .fa-times{
+        position: relative;
+        top: -33px;
+        left: 93.2%;
+        display: none;
+    }
+    #products .fa-times{
+        position: relative;
+        top: -33px;
+        left: 93.2%;
+        display: none;
+        
+    }
+    
+    .box{
+     position: relative;
+     top: -450px;
+     left: 33%;
+    }
+    .footerContent {
+     display: flex;
+     flex: wrap 1;
+     flex-direction: column;
+     margin-left: 5%;
+    }
+    
+}
+@media screen and (max-width:396px) {
+    .iconplus .fa-times{
+        display: flex;
+        position: absolute;
+        top: -19px;
+        left: 86%;
+        
+    }
+    #help .fa-times{
+        position: relative;
+        top: -19px;
+        left: 86%;
+        display: none;
+        
+    }
+    #company .fa-times{
+        position: relative;
+        top: -19px;
+        left: 86%;
+        display: none;
+    }
+    #products .fa-times{
+        position: relative;
+        top: -19px;
+        left: 86%;
+        display: none;
+        
+    }
+    
+    #company .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 86%;
+    }
+    #help .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 86%;
+    }
+    #products .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 86%;
+    }
+}
+@media screen and (max-width:312px) {
+    .iconplus .fa-times{
+        display: flex;
+        position: absolute;
+        top: -19px;
+        left: 83%;
+        
+    }
+    #help .fa-times{
+        position: relative;
+        top: -19px;
+        left: 83%;
+        display: none;
+        
+    }
+    #company .fa-times{
+        position: relative;
+        top: -19px;
+        left: 83%;
+        display: none;
+    }
+    #products .fa-times{
+        position: relative;
+        top: -19px;
+        left: 83%;
+        display: none;
+        
+    }
+    
+    #company .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 83%;
+    }
+    #help .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 83%;
+    }
+    #products .fa-plus{
+        position: relative;
+        top: -19px;
+        left: 83%;
+    }
+}
+}
